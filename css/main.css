@@ -91,8 +91,7 @@ nav ul li {
 }
 
 .projects{
-	width: 80%;
-	margin: 0 auto;
+	margin: 100px 0;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -101,10 +100,32 @@ nav ul li {
 
 .projects .photo {
 	width: 33%;
-	margin: 5%;
+	margin: 1%;
+
+	position: relative;
+	text-align: center;
 }
+
+.pr1{
+	transition:all 0.3s ease;
+	filter: grayscale(100%);
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.pr1:hover{
+	transition:all 0.3s ease;
+	filter: grayscale(0%);
+}
+
 .photo img {
 	width: 100%;
+	transition:all 0.3s ease;
+}
+
+.photo img:hover {
+	transform: scale(1.1);
+	transition:all 0.3s ease;
 }
 
 footer {
