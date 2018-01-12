@@ -81,15 +81,6 @@ nav ul li {
 	font-size: 2vw
 }
 
-@media (max-width: 600px) {
-	.pres{
-		font-weight: thin;
-		font-size: 4vw
-	}
-	.hello {
-		font-size: 30vw;
-	}
-}
 
 
 #portfolio {
@@ -101,4 +92,21 @@ nav ul li {
 	width: 70%;
 	font-size: 1.4em;
 	color: #ff725c;
+	text-align: justify;
 }
+
+@media (max-width: 600px) {
+	.pres{
+		font-weight: thin;
+		font-size: 4vw
+	}
+	.hello {
+		font-size: 30vw;
+	}
+	.aboutme{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 1em;
+	}
+}
+
