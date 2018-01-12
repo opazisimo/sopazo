@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../img/p1.JPG');
+
+    /* Full height */
+    height: 64%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav {
+	height: 60px;
+	background-color: transparent;
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding: 30px;
+}
+
+nav ul {
+	position: relative;
+
+}
+
+nav ul li {
+	display: flex;
+	text-align: right;
+}
+
+.menu {
+	text-align: right;
+}
+#presentation {
+	background-color: white;
+	height: 80vh;
+	position:relative;
+	padding: 8%;
+}
+
+.text {
+	position: absolute;
+	bottom: 0;
+	padding: 100px 0;
+}
+
+.hello {
+	font-weight: 700;
+	font-size: 15vw;
+	color: #ff725c;
+	margin: 0;
+	position: relative;
+}
+
+.color:hover
+{
+        color:#53a7ea;
+        transition:all 0.6s ease;
+}
+.pres{
+	color: #ff725c;
+	font-weight: 300;
+	font-size: 1vw
+}
+
+@media (max-width: 600px) {
+	.pres{
+		font-weight: thin;
+		font-size: 4vw
+	}
+	.hello {
+		font-size: 30vw;
+	}
+}
+
+
+.tacha {
+	text-decoration: line-through;
+}
+
+#portfolio {
+	height: 60vh;
+
+}
