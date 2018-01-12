@@ -222,6 +222,16 @@ footer {
 	border: 10px solid white;
 }
 
+.bphoto2 {
+	width: 45%;
+	margin: 1%;
+}
+.bphoto2 img{
+	width: 100%;
+	border: 10px solid white;
+}
+
+
 .metphoto {
 	width: 70%;
 	margin: 1%;
