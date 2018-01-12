@@ -3,19 +3,26 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Dosis', sans-serif;
+	color: #ee695c;
 }
 
 body, html {
     height: 100%;
 }
 
+section, footer {
+	background-color: #eeeeee;
+}
 .parallax {
-	filter: grayscale(100%);
-    height: 40%; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.blur{
+	filter: grayscale(100%) blur(2px);
+	height: 40%; 
 }
 
 .first {
@@ -27,6 +34,56 @@ body, html {
 }
 .footer{
 	background-image: url('../img/p3.JPG');
+}
+
+.third{
+	background-image: url('../img/p4.JPG');
+}
+
+
+.flightwf{
+	background-image: url('../img/booking.png');
+	height: 40vh;
+}
+
+.flightwf2{
+	background-image: url('../img/booking2.png');
+	height: 40vh;
+}
+.booking {
+	background-image: url('../img/flight.png');
+
+}
+
+.met {
+	background-image: url('../img/met.png');
+}
+.metp1 {
+	background-image: url('../img/metp1.png');
+	height: 40vh;
+}
+.metp2 {
+	background-image: url('../img/metp2.jpg');
+	height: 40vh;
+}
+.bdiv{
+	height: 80vh;
+	position: relative;
+	color: white;
+	font-size: 3em;
+	text-transform: uppercase;
+}
+
+
+.booking div, .bdiv div {
+	position: absolute;
+	bottom: 100px;
+	right: 100px;
+}
+
+.booking div h1, .bdiv div h1{
+	padding: 10px;
+	background-color: #eee;
 }
 
 nav {
@@ -52,14 +109,14 @@ nav ul li {
 	text-align: right;
 }
 #presentation {
-	background-color: white;
+	background-color: #eeeeee;
 	position:relative;
 }
 
 .hello {
 	font-weight: 700;
 	font-size: 15vw;
-	color: #ff725c;
+	color: #ee695c;
 	margin: 0;
 	position: relative;
 	transition:all 0.6s ease;
@@ -71,19 +128,19 @@ nav ul li {
 }
 
 .pres{
-	color: #ff725c;
+	color: #ee695c;
 	font-weight: 300;
 	font-size: 2vw
 }
 
-#presentation, #about, #skills {
+#presentation, #about, #skills, #tools, .booking, #booking-wires, #booking-des {
 	padding: 10%;
 }
 
 .aboutme {
 	width: 70%;
 	font-size: 1.4em;
-	color: #ff725c;
+	color: #4f80a1;
 	text-align: justify;
 }
 #skills{
@@ -91,7 +148,7 @@ nav ul li {
 }
 
 .projects{
-	margin: 100px 0;
+	margin-top: 80px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -101,7 +158,6 @@ nav ul li {
 .projects .photo {
 	width: 33%;
 	margin: 1%;
-
 	position: relative;
 	text-align: center;
 }
@@ -127,13 +183,53 @@ nav ul li {
 	transform: scale(1.1);
 	transition:all 0.3s ease;
 }
+.tools {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+#tools h2 {
+	font-size: 2em;
+}
+.tools .col {
+	width: 33%;
+	margin: 1%;
+}
 
 footer {
 	padding: 5% 10%;
 	font-size: 1.4em;
 }
 
+.wireframes{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	width: 98%
+}
 
+.bphoto {
+	width: 30%;
+	margin: 1%;
+}
+.bphoto img{
+	width: 100%;
+	border: 10px solid white;
+}
+
+.metphoto {
+	width: 70%;
+	margin: 1%;
+}
+.metphoto img{
+	width: 100%;
+	border: 10px solid white;
+}
 
 
 @media (max-width: 600px) {
